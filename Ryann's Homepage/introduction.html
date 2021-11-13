@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+	<title>Introduction</title>
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+	<!--head window -->
+	<div class="head-window">
+	Welcome to Ryann's Homepage
+	</div>
+
+	<!-- body window  -->
+	<div class="body-window">
+		<!--left window-->
+		<div class="left-window">
+			<a href="introduction.html"><div class="button">Introduction</div></a>
+			<a href="hobbies.html"><div class="button">Hobbies</div></a>
+			<a href="schedule.html"><div class="button">Schedule</div></a>
+			<a href="videos.html"><div class="button">Videos</div></a>
+			<a href="pictures.html"><div class="button">Pictures</div></a>
+		
+		
+		</div>
+		
+		<!--right window-->
+		<div class="right-window">
+			<span style="font-size:40px;font-style:bold">Ryann Cao</span>
+			<br>
+			<span style="font-size:20px;font-style:bold">Student</span>
+			<p>
+				Ryann is a student at <a href="https://ycsd.yorkcountyschools.org/ces">Coventry Elementary School</a>.
+				She lives at <a href="https://www.yorkcounty.gov/">Yorktown VA</a>.
+				<br>
+				She likes skating,swimming and writing. Ryann goes to <a href="http://www.hriceplex.com/">IcePlex</a>
+				<br>
+				for skating.
+				She also loves adventures and nature. Ryann is a chinese american.                                         
+			</p>
+		</div>
+
+
+	</div>
+	
+	<!--foot window -->
+	<div class="foot-window">
+		<p>Date/Time: <span id="datetime"></span></p>	
+	</div>
+	
+
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleString();
+	</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+</html>
