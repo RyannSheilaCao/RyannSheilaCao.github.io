@@ -21,6 +21,7 @@
 
 	<!-- body window  -->
 	<div class="body-window">
+	
 		<!--left window-->
 		<div class="left-window">
 			<a href="introduction.html"><div class="button">Introduction</div></a>
@@ -28,82 +29,79 @@
 			<a href="schedule.html"><div class="button">Schedule</div></a>
 			<a href="videos.html"><div class="button">Videos</div></a>
 			<a href="pictures.html"><div class="button">Pictures</div></a>
-		
-		
 		</div>
 		
 		<!--right window-->
 		<div class="right-window">
-		<h1>Monday-Friday</h1>
-		<ul>
-	<li style="color:Green">Get up</li>
-	
-	<li style="color:Red" >Brush teeth</li>
-	
-	<li style="color:orange" >Breakfeast</li>
-	
-	<li style="color:Blue">School</li>
-	
-	<li style="color:Yellow">Dinner</li>
-	
-	<li style="color:Purple">(Thursday only)Skating</li>
-	
-	<li style="color:Indigo">Math</li>
-	
-	<li style="color:Navy">Free time</li>
-	
-	<li style="color:Teal">Shower</li>
-	
-	<li style="color:Silver">brush teeth</li>
-	
-	<li style="color:Gold">Bed time</li>
-		</ul>
+			<h1>Monday-Friday</h1>
+			
+			<ul>
+				<li style="color:Green">Get up</li>
+		
+				<li style="color:Red" >Brush teeth</li>
+		
+				<li style="color:orange" >Breakfeast</li>
+		
+				<li style="color:Blue">School</li>
+		
+				<li style="color:Yellow">Dinner</li>
+		
+				<li style="color:Purple">(Thursday only)Skating</li>
+		
+				<li style="color:Indigo">Math</li>
+		
+				<li style="color:Navy">Free time</li>
+		
+				<li style="color:Teal">Shower</li>
+		
+				<li style="color:Silver">brush teeth</li>
+				
+				<li style="color:Gold">Bed time</li>
+			</ul>
 		
 	
 			<h1>Saturday-Sunday</h1>
-		<ul>
-	<li style="color:Green">Get up</li>
-	
-	<li style="color:Red" >Brush teeth</li>
-	
-	<li style="color:orange" >Breakfeast</li>
-	
-	<li style="color:Blue">Free time</li>
-	
-	<li style="color:Yellow">Lunch</li>
-	
-	<li style="color:Purple">(Saturday only)Chinese Class</li>
-	
-	<li style="color:Indigo">(Saturday only)Coding Class</li>
-	
-	<li style="color:lime">Math</li>
-	
-	<li style="color:Navy">Free time</li>
-	
-	<li style="color:Teal">Dinner</li>
-	
-	<li style="color:Silver">brush teeth</li>
-	
-	<li style="color:Gold">Bed time</li>
-		</ul>
-
-	</div>
+			
+			<ul>
+				<li style="color:Green">Get up</li>
+		
+				<li style="color:Red" >Brush teeth</li>
+		
+				<li style="color:orange" >Breakfeast</li>
+		
+				<li style="color:Blue">Free time</li>
+		
+				<li style="color:Yellow">Lunch</li>
+		
+				<li style="color:Purple">(Saturday only)Chinese Class</li>
+		
+				<li style="color:Indigo">(Saturday only)Coding Class</li>
+		
+				<li style="color:lime">Math</li>
+		
+				<li style="color:Navy">Free time</li>
+		
+				<li style="color:Teal">Dinner</li>
+		
+				<li style="color:Silver">brush teeth</li>
+		
+				<li style="color:Gold">Bed time</li>
+			</ul>
+		</div>
 	
 	</div>
 	
 	
 	<!--foot window -->
 	<div class="foot-window">
-	@2021
+	<p>Date/Time: <span id="datetime"></span></p>	
 	</div>
 
 
-
-
-
-
-
-
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleString();
+	</script>
 
 </body>
 

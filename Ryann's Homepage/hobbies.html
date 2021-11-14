@@ -42,11 +42,14 @@
 	
 	<!--foot window -->
 	<div class="foot-window">
-	@2021
+	<p>Date/Time: <span id="datetime"></span></p>	
 	</div>
 
 
-
+	<script>
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleString();
+	</script>
 
 
 
